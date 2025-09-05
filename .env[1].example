@@ -1,0 +1,17 @@
+# === Providers ===
+OPENAI_API_KEY=sk-...
+COHERE_API_KEY=...
+# If you prefer Groq for LLM, set GROQ_API_KEY and switch in /pages/api/ask.ts
+
+# === Pinecone (Hosted Vector DB) ===
+PINECONE_API_KEY=...
+PINECONE_INDEX=mini-rag
+PINECONE_CLOUD=us-east-1
+PINECONE_ENVIRONMENT=us-east-1
+
+# === App ===
+# Tune retrieval sizes
+RETRIEVAL_TOP_K=20
+RERANK_TOP_K=8
+CHUNK_TOKENS=1000
+CHUNK_OVERLAP_RATIO=0.1
